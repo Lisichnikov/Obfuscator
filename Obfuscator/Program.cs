@@ -7,7 +7,7 @@ class Program
     static void Main()
     {
         // Чтение кода из файла
-        string path = "C:\\Users\\Пользователь\\Desktop\\кликер и таймер.txt";
+        string path = "C:\\Users\\alexo\\OneDrive\\Рабочий стол\\code.txt";
         string inputCode = File.ReadAllText(path);
         // Удаляем комментарии
         string codenotcoment = Regex.Replace(inputCode, @"(//.*?$)|(/\*.*?\*/)", string.Empty, RegexOptions.Multiline);
